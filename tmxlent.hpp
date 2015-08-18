@@ -20,7 +20,7 @@ public:
 private:
     pugi::xml_node nodeMap;
     pugi::xml_node nodeTileset;
-    pugi::xml_node node_Data;
+    pugi::xml_node nodeData;
 
     std::string fnTileset;
 };

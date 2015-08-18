@@ -4,9 +4,7 @@
 int main()
 {
     TMXLent tmx;
-    tmx.loadtmx("assets/test.tmx");
-
-    std::cout << tmx.tileSize.x << std::endl;
+    tmx.loadtmx("assets/test2.tmx");
 
     return 0;
 }
